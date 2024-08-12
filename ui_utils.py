@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # Load the CSV file
-data = pd.read_csv('trending_news_.csv')
+data = pd.read_csv('my.csv')
 
 # Convert 'created_at' to datetime format
 data['created_at'] = pd.to_datetime(data['created_at'], format='%d-%m-%Y %H:%M')
